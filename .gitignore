@@ -14,16 +14,6 @@ composer.lock
 # Dependencies
 /vendor/
 
-# Storage (regenerated at runtime)
-/storage/cache/
-/storage/logs/
-/storage/tmp/
-
-# Keep storage structure but ignore contents
-!/storage/
-!/storage/README.md
-!/storage/redirects.json
-
 # Environment and secrets
 .env
 .env.local
