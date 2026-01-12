@@ -19,15 +19,14 @@ app/config/*.local
 !/app/config/content_types.php
 !/app/config/content_types.php.bak
 
-# Keep themes and plugins
+# Keep themes
 !/themes/
 !/themes/**
-!/plugins/
-!/plugins/**
 
-# Keep public entry and media (but we'll re-ignore admin.css)
-!/public/
-!/public/index.php
+# Plugins, index.php and composer files should not be tracked in the repo
+/plugins/
+
+# Keep public media, but ignore the public entry and local assets we don't want
 !/public/media/
 !/public/media/**
 !/public/assets/
@@ -36,9 +35,10 @@ app/config/*.local
 # Re-ignore the admin stylesheet (keep it local)
 /public/assets/admin.css
 
-# Project files to keep
-!/composer.json
-!/composer.lock
+# Project files to ignore (not tracked)
+/public/index.php
+/composer.json
+/composer.lock
 
 # Keep other project files, but don't keep the local CLI or bootstrap in the repo
 /ava
