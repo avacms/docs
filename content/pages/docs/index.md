@@ -224,6 +224,10 @@ If `igbinary` isn't available, Ava CMS falls back to PHP's built-in `serialize`.
 
 Getting started with Ava CMS is simple and the default set-up can be put live in just a minute. Here are a few options:
 
+<div class="callout-warning">
+<strong>Always use a release.</strong> Download Ava CMS from <a href="https://github.com/avacms/ava/releases">GitHub Releases</a>—never clone the repository directly. The <code>main</code> branch may contain incomplete or untested work.
+</div>
+
 ### Download and Upload
 
 The simplest approach—no special tools required:

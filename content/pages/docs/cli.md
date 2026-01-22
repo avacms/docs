@@ -480,7 +480,7 @@ Skip confirmation with `-y` or `--yes`:
 ./ava update:apply -y
 ```
 
-**Developer Mode:** Update from the latest commit on the main branch instead of a release (for testing unreleased features):
+**Developer Mode (Not Recommended):** Update from the latest commit on the main branch instead of a release. This is only for testing unreleased features—never use `--dev` for production sites or fresh installs:
 
 ```bash
 ./ava update --dev

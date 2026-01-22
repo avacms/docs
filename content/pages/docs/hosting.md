@@ -226,10 +226,16 @@ Upload changed files via SFTP, then run `./ava rebuild` if you have SSH.
 
 ### Git-Based
 
+If you keep your site in a Git repository (your own customised Ava CMS installation—not a clone of the main Ava repo), you can deploy by pulling changes:
+
 ```bash
-# On your server
+# On your server (pulling your own site repo)
 cd ~/ava && git pull origin main && ./ava rebuild
 ```
+
+<div class="callout-info">
+<strong>Note:</strong> This assumes you started from a <a href="https://github.com/avacms/ava/releases">release</a> and committed your site to your own repository. Never clone the main Ava CMS repo directly for production—it may contain incomplete work.
+</div>
 
 ### Automated (CI/CD)
 

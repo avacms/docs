@@ -50,9 +50,13 @@ Under the hood, Ava CMS downloads an update ZIP from GitHub, extracts it into `s
 # Apply update without interactive prompts
 ./ava update:apply --yes
 
-# Apply update from the latest commit on the main branch (unstable)
+# Apply update from the latest commit on the main branch (not recommended)
 ./ava update:apply --dev
 ```
+
+<div class="callout-warning">
+<strong>Never use <code>--dev</code> for production sites.</strong> The <code>main</code> branch may contain incomplete or untested work. For new installations, always download from <a href="https://github.com/avacms/ava/releases">GitHub Releases</a>.
+</div>
 
 <div class="callout-warning">
 <strong>Important:</strong> While the updater is designed to preserve your files, things can go wrong—especially during early development. Always have a backup before updating. If an update fails midway, you can restore from backup and try again, or do a <a href="#manual-updates">manual update</a>.
