@@ -81,7 +81,7 @@ Ava CMS is for people who like owning and understanding how their site works. It
 | **Shortcodes** | Embed [dynamic content](/docs/shortcodes) and reusable snippets in your Markdown. |
 | **Plugins** | Add [functionality](/docs/creating-plugins) like sitemaps and feeds without bloat. |
 | **Speed** | Built-in page [caching](/docs/performance) makes your site load instantly, even on cheap hosting. |
-| **Search** | Full-text search across your content with [configurable](/docs/configuration) weights. |
+| **Search** | [Full-text search](/docs/search) across your content with configurable weights and synonyms. |
 | **CLI Tool** | Manage your site from the [command line](/docs/cli): clear caches, create users, run tests, and more. |
 | **Admin&nbsp;Dashboard** | Optional [web UI](/docs/admin) for editing content, managing taxonomies, viewing logs, and system diagnostics. |
 

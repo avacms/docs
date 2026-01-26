@@ -487,7 +487,9 @@ $router->addRoute('/api/categories/{slug}/posts', function($request, $params) us
 
 ## Search Endpoint
 
-The `\Ava\Content\Query` class includes built-in full-text search with relevance scoring:
+The `\Ava\Content\Query` class includes built-in full-text search with relevance scoring.
+
+**See also:** [Search documentation](/docs/search) for complete configuration, synonyms, weights, and building search interfaces.
 
 ```php
 $router->addRoute('/api/search', function($request, $params) use ($app) {

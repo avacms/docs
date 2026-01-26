@@ -523,7 +523,7 @@ return [
 | `fields` | array | No | Custom field definitions for validation and admin UI. See [Fields](/docs/fields). |
 | `sorting` | string | No | Default sort: `date_desc`, `date_asc`, `title`, or `manual`. |
 | `cache_fields` | array | No | Extra frontmatter fields to include in archive cache for fast access. |
-| `search` | array | No | Search configuration (enabled, fields, weights). |
+| `search` | array | No | Search configuration (enabled, fields, weights). See [Search](/docs/search). |
 
 ### Example with Custom Fields
 

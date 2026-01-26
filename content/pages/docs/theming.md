@@ -729,6 +729,8 @@ $results = $ava->query()
 
 Results are automatically scored and ranked by relevance.
 
+**See also:** [Search documentation](/docs/search) for complete configuration, synonyms, and building search pages.
+
 ### Tuning Search Relevance
 
 By default, exact phrase matches in titles score highest. Customize weights:
