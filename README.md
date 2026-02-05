@@ -18,7 +18,7 @@ The documentation website is built using [Ava Docs Theme](https://github.com/ava
 ## Getting help / reporting problems
 
 - **Docs issue / typo / unclear instructions**: please open an issue (include a link to the page or the file name, and what you expected to see).
-- **Questions / support / discussion**: please use our [Discord](https://discord.com/invite/fZwW4jBVh5).
+- **Questions / support / discussion**: please use [GitHub Discussions](https://github.com/orgs/avacms/discussions).
 
 ## Contributing
 

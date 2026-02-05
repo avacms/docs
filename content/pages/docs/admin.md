@@ -33,7 +33,7 @@ The admin is disabled by default. Enable it in `app/config/ava.php`:
 
 You can change `path` to any URL (e.g., `/dashboard` or `/manage`).
 
-See [Configuration](/docs/configuration) for all admin settings.*
+See [Configuration](/docs/configuration) for all admin settings.
 
 ### 2. Create a User
 
@@ -45,7 +45,7 @@ Users are stored in a config file (no database). Create one with the CLI:
 
 This creates `app/config/users.php` with a securely hashed password. The file is gitignored by default.
 
-See [CLI Reference](/docs/cli#content-user-management) for all user commands (`user:list`, `user:password`, `user:delete`).*
+See [CLI Reference](/docs/cli#content-user-management) for all user commands (`user:list`, `user:password`, `user:delete`).
 
 <details class="beginner-box">
 <summary>No SSH access? Create users manually</summary>
@@ -127,6 +127,40 @@ Open the admin dashboard, then use the browser’s <strong>Install</strong> opti
 <strong>Good to know:</strong> This is still your live admin site. You’ll generally need an internet connection to browse and save content. If you don’t see an install option, make sure you’re using <code>https://</code> and a supported browser (Safari/Chrome).
 </div>
 
+## Admin Session Security
+
+Session security controls help protect your admin dashboard. Use `app/config/ava.php` to adjust these settings.
+
+### Session Timeout
+
+Admin sessions automatically expire after a period of inactivity. Each page load or action resets the timer.
+
+**Configuration:** Set via `admin.session.timeout`.
+
+| Value | Behavior |
+|-------|----------|
+| `1800` | 30 minutes (default) |
+| `900` | 15 minutes (stricter) |
+| `3600` | 1 hour (more lenient) |
+| `null` | No timeout |
+
+### IP Binding (Optional)
+
+When enabled, sessions are locked to the IP address used at login. If a session cookie is used from a different IP, the session is invalidated.
+
+**Configuration:** Set via `admin.session.ip_binding`.
+
+Default is `false` (disabled). Enable only if admin users have stable IP addresses.
+
+<div class="callout-warning">
+IP binding can cause unexpected logouts for:
+<ul>
+<li>Mobile users switching between WiFi and cellular</li>
+<li>VPN users when connections drop or reconnect</li>
+<li>Users behind corporate proxies or load balancers</li>
+</ul>
+</div>
+
 ## Features
 
 ### Content Editor
@@ -166,7 +200,7 @@ A full-featured content editor with custom field support, syntax highlighting, a
 
 **Preview drafts** instantly. Drafts use a [preview token](/docs/configuration#content-security) so only authorized users can see unpublished content.
 
-See [Fields](/docs/fields) to learn about defining custom fields for your content types.*
+See [Fields](/docs/fields) to learn about defining custom fields for your content types.
 
 <div class="callout-warning">
 <strong>Content safety:</strong> The admin blocks potentially dangerous HTML like <code>&lt;script&gt;</code>, <code>&lt;iframe&gt;</code>, and JavaScript event handlers. If you need advanced HTML, edit the file directly on disk.
@@ -250,7 +284,7 @@ See what's in your active theme at a glance.
 - **Assets** — CSS, JS, images, and fonts with file sizes
 - **Shortcodes** — Available shortcodes and snippets with copy buttons
 
-See [Theming](/docs/theming) to learn about creating themes.*
+See [Theming](/docs/theming) to learn about creating themes.
 
 ### System Info
 

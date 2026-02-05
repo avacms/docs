@@ -128,7 +128,7 @@ Shared hosting is the easiest and most affordable option. The hosting company ha
 | [Krystal Hosting](https://krystal.uk/web-hosting) | From £7/month | UK-based, SSH access, renewable energy |
 | [Porkbun Easy PHP](https://porkbun.com/products/webhosting/managedPHP) | From $10/month | Simple setup, includes domain management |
 
-Had a good experience elsewhere? Let us know in the [Discord](https://discord.gg/fZwW4jBVh5)!
+Had a good experience elsewhere? Let us know in [GitHub Discussions](https://github.com/orgs/avacms/discussions)!
 
 
 ### File Structure
@@ -382,7 +382,7 @@ sudo a2enmod rewrite && sudo systemctl restart apache2
 - [CLI Reference](/docs/cli) — All available commands
 - [Configuration](/docs/configuration) — Site settings
 - [Performance](/docs/performance) — Optimisation tips
-- [Discord Community](https://discord.gg/fZwW4jBVh5) — Ask questions, get help
+- [GitHub Discussions](https://github.com/orgs/avacms/discussions) — Ask questions, get help
 
 <div class="related-docs">
 <h2>Related Documentation</h2>

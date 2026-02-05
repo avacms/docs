@@ -17,6 +17,10 @@ excerpt: A condensed technical reference for AI assistants working with Ava CMS,
 
 Ava CMS is a flat-file PHP CMS (PHP 8.3+) requiring no database. Content is Markdown with YAML frontmatter. Configuration is PHP arrays. No build step—edit, refresh, done.
 
+This project is under very early, active development and may contain bugs or security issues. It is likely not ready for production websites.
+
+You are responsible for reviewing, testing, and securing any deployment. Ava CMS is provided as free, open-source software without warranty (GNU General Public License), see LICENSE.
+
 **Installation:** Always download from [GitHub Releases](https://github.com/avacms/ava/releases)—never clone the repository directly. The `main` branch may contain incomplete or untested work.
 
 **Core Philosophy:**

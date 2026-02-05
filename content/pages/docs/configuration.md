@@ -339,6 +339,11 @@ The admin dashboard provides a web-based interface for managing your site.
     'path'    => '/ava-admin',
     'theme'   => 'cyan',
 
+    'session' => [
+        'timeout'    => 1800,  // 30 minutes
+        'ip_binding' => false,
+    ],
+
     'media' => [
         'enabled'          => true,
         'path'             => 'public/media',
@@ -357,6 +362,8 @@ The admin dashboard provides a web-based interface for managing your site.
 | `enabled` | bool | `false` | Enable the admin dashboard. |
 | `path` | string | `'/ava-admin'` | URL path for the admin area. Change to obscure admin location. |
 | `theme` | string | `'cyan'` | Color theme: `cyan`, `pink`, `purple`, `green`, `blue`, or `amber`. |
+| `session.timeout` | int\|null | `1800` | Session lifetime in seconds. `null` disables timeout. |
+| `session.ip_binding` | bool | `false` | Lock session to login IP. See [Admin - IP Binding](/docs/admin#content-ip-binding-optional) for warnings. |
 | `media.enabled` | bool | `true` | Enable the media upload feature. |
 | `media.path` | string | `'public/media'` | Upload directory (relative to project root). |
 | `media.organize_by_date` | bool | `true` | Create `/year/month/` subfolders for uploads. |

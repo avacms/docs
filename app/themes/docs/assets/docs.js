@@ -463,21 +463,30 @@
     }
     
     // Close button (X) - dismiss for 2 hours
-    window.closeGithubToast = function() {
+    function closeGithubToast() {
         hideToast();
         localStorage.setItem(STORAGE_KEY, (Date.now() + CLOSE_DURATION).toString());
-    };
+    }
     
     // Maybe later button - dismiss for 10 minutes
-    window.dismissGithubToast = function() {
+    function dismissGithubToast() {
         hideToast();
         localStorage.setItem(STORAGE_KEY, (Date.now() + MAYBE_LATER_DURATION).toString());
-    };
+    }
     
     // Starred - dismiss permanently
-    window.starredGithub = function() {
+    function starredGithub() {
         localStorage.setItem(STORAGE_KEY, (Date.now() + 1000 * 60 * 60 * 24 * 365 * 10).toString());
-    };
+    }
+    
+    // Attach event listeners
+    const closeBtn = document.getElementById('github-toast-close');
+    const dismissBtn = document.getElementById('github-toast-dismiss');
+    const starBtn = document.getElementById('github-star-btn');
+    
+    if (closeBtn) closeBtn.addEventListener('click', closeGithubToast);
+    if (dismissBtn) dismissBtn.addEventListener('click', dismissGithubToast);
+    if (starBtn) starBtn.addEventListener('click', starredGithub);
 
     // Track docs page views in localStorage so it works with full-page caches.
     // We avoid double-counting the same path by recording the last path seen.

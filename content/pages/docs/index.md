@@ -12,7 +12,7 @@ excerpt: Ava CMS is a blazing fast and flexible flat-file CMS where your content
 [![Release](https://img.shields.io/github/v/release/avacms/ava)](https://github.com/avacms/ava/releases)
 [![Issues](https://img.shields.io/github/issues/avacms/ava)](https://github.com/avacms/ava/issues)
 [![Code size](https://img.shields.io/github/languages/code-size/avacms/ava)](https://github.com/avacms/ava)
-[![Discord](https://img.shields.io/discord/1028357262189801563)](https://discord.gg/fZwW4jBVh5)
+[![GitHub Discussions](https://img.shields.io/github/discussions/avacms/ava)](https://github.com/orgs/avacms/discussions)
 [![GitHub Repo stars](https://img.shields.io/github/stars/avacms/ava)](https://github.com/avacms/ava)
 
 </div>
@@ -353,7 +353,7 @@ That said, I'd genuinely love your feedback:
 - If you run into a bug, get stuck, or have a "this could be nicer" moment, please [open an issue](https://github.com/avacms/ava/issues).
 - Feature requests, ideas, and suggestions are very welcome.
 
-If you prefer a more conversational place to ask questions and share ideas, join the [Discord community](https://discord.gg/fZwW4jBVh5).
+If you have questions or want to share ideas, join the [GitHub Discussions](https://github.com/orgs/avacms/discussions).
 
 ## License
 

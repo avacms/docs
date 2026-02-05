@@ -49,7 +49,7 @@ Built a theme you'd like to share? We'd love to feature it here! You'll need to 
 
 **How to submit:**
 - [Open an issue on GitHub](https://github.com/avacms/ava/issues) with the label "community-theme"
-- Or share it in [Discord](https://discord.gg/fZwW4jBVh5)
+- Or share it in [GitHub Discussions](https://github.com/orgs/avacms/discussions)
 
 ## Theme Development
 

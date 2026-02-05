@@ -2,13 +2,14 @@
 title: Releasing
 slug: releasing
 status: published
-meta_title: Releasing | Flat-file PHP CMS | Ava CMS
-meta_description: Guide for Ava CMS maintainers releasing new versions. Covers semantic versioning, release tests, version checks, and the complete release process.
-excerpt: Release guide for Ava CMS maintainers. Covers semantic versioning, release tests, version checks, and the steps to publish a new version to GitHub.
+order: 0
+excerpt: 'Release guide for Ava CMS maintainers. Covers semantic versioning, release tests, version checks, and the steps to publish a new version to GitHub.'
+meta_title: 'Releasing | Flat-file PHP CMS | Ava CMS'
+meta_description: 'Guide for Ava CMS maintainers releasing new versions. Covers semantic versioning, release tests, version checks, and the complete release process.'
 ---
 
 This guide is for maintainers who are releasing a new version of Ava CMS.
-
+ 
 ## Versioning
 
 Ava CMS uses Semantic Versioning: `MAJOR.MINOR.PATCH`.

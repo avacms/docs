@@ -229,7 +229,7 @@ Your content and configuration are in separate directories from core files, so t
 
 ## Need Help?
 
-Updates not working? Something broken? Join the [Discord community](https://discord.gg/fZwW4jBVh5)—we're happy to help troubleshoot and get you back on track.
+Updates not working? Something broken? Join the [GitHub Discussions](https://github.com/orgs/avacms/discussions)—we're happy to help troubleshoot and get you back on track.
 
 <div class="related-docs">
 <h2>Related Documentation</h2>
